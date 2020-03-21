@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <title>Netgear Nighthawk MR1100 Band Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="./css/bootstrap-4.4.1.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <script src="./js/react-16.13.1.dev.js"></script>
+    <script src="./js/react-dom-16.13.1.dev.js"></script>
+    <script src="./js/babel-standalone-6.26.0.js"></script>
+    <script type="text/babel" src="./js/band-generator.jsx"></script>
+  </head>
+
+  <body>
+    <div class="container mt-4">
+      <div class="row mb-3">
+        <div class="col-sm-12">
+          <h3>Netgear Nighthawk MR1100 Band Generator</h3>
+        </div>
+      </div>
+
+      <div id="band-generator"></div>
+
+      <div class="row mt-3 mb-5">
+        <div class="col-sm-12">
+          <h4>Notes</h4>
+          <ul>
+            <li>This guide is only known to work for AT&amp;T in the United States. Please create a Github issue if this works (or doesn't work) in other markets.</li>
+            <li>Band 66 is an exclusive band and cannot be aggregated with other bands. The band selector for this is: <code>AT!BAND=09, "LTE B66 (AWS-3)", 0, 0, 2</code></li>
+            <li><strong>MR1100-1A1NAS (AT&amp;T)</strong> Bands: 1, 2, 3, 4, 5, 7, 12, 20, 29, 30, 46, 66 (an early model which does not have B14)</li>
+            <li><strong>MR1100-2A1NAS (AT&amp;T)</strong> Bands: 1, 2, 3, 4, 5, 7, 12, 14, 20, 29, 30, 46, 66</li>
+          </ul>
+
+          <h4>Links</h4>
+          <ul>
+            <li>
+              <a href="https://www.reddit.com/r/ATT/comments/bgabsw/nighthawk_m1100_band_locking_help/" target="_blank">original reddit band locking thread</a>
+            </li>
+            <li>
+              <a href="https://www.reddit.com/r/ATT/comments/bgabsw/nighthawk_m1100_band_locking_help/elre7cd" target="_blank">my original guide as a reddit comment</a>
+            </li>
+            <li>
+              <a href="https://kb.netgear.com/000060410/What-cellular-bands-are-supported-by-MR1100-Nighthawk-M1-Mobile-Router" target="_blank">[netgear] What cellular bands are supported by MR1100 Nighthawk M1 Mobile Router?</a>
+            </li>
+            <li>
+              <a href="https://josh.sc/netgear-mr1100-band-generator" target="_blank">online version of this band generator</a>
+            </li>
+            <li>
+              <a href="https://github.com/joshskidmore/netgear-mr1100-band-generator" target="_blank">[github] source code for this band generator</a>
+            </li>
+            <ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -59,7 +59,7 @@ const BANDS = {
   },
   B28: {
     band: 28,
-    type: '700Mhz',
+    type: '700 MHz',
     description: 'Used in Australia for Telstra, Optus, Vodafone',
     lBand: 134217728,
     lBandHex: '0000000008000000'
